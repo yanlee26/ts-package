@@ -1,5 +1,7 @@
 # @yanli26/ts-package
 
+[![Build Status](https://travis-ci.org/yanlee26/ts-package.svg?branch=master)](https://travis-ci.org/yanlee26/ts-package)
+
 ## Install
 
 ```sh
