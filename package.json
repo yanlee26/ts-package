@@ -1,14 +1,20 @@
 {
-  "name": "@yanlee26/ts-package",
+  "name": "@yanli26/ts-package",
   "version": "1.0.0",
   "description": "create npm package with typescript",
   "private":false,
   "main": "index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "mocha --reporter spec",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
   },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/youthcity/ts-hi.git"
