@@ -1,6 +1,6 @@
 # @yanli26/ts-package
 
-[![Build Status](https://travis-ci.org/yanlee26/ts-package.svg?branch=master)](https://travis-ci.org/yanlee26/ts-package)
+[![Build Status](https://travis-ci.org/yanlee26/ts-package.svg?branch=master)](https://travis-ci.org/yanlee26/ts-package) [![Coverage Status](https://coveralls.io/repos/github/yanlee26/ts-package/badge.svg?branch=master)](https://coveralls.io/github/yanlee26/ts-package?branch=master)
 
 ## Install
 
