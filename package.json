@@ -1,6 +1,6 @@
 {
   "name": "@yanli26/ts-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create npm package with typescript",
   "private":false,
   "main": "index.js",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youthcity/ts-hi.git"
+    "url": "git+https://github.com/yanlee26/ts-package"
   },
   "keywords": [
     "typescript"
