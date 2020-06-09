@@ -1,0 +1,28 @@
+{
+  "name": "@yanlee26/ts-package",
+  "version": "1.0.0",
+  "description": "create npm package with typescript",
+  "private":false,
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youthcity/ts-hi.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "youthcity",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "typescript": "^3.0.3"
+  }
+}
