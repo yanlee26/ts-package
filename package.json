@@ -1,12 +1,16 @@
 {
   "name": "@yanli26/ts-package",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "create npm package with typescript",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [ "/dist"],
+  "files": [
+    "/dist"
+  ],
   "scripts": {
+    "release": "sh ./scripts/release.sh",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && npm run changeissueurl",
     "build": "tsc",
     "test": "mocha --reporter spec",
     "prepublish": "rm -rf dist && tsc",
@@ -19,13 +23,16 @@
   "keywords": [
     "typescript"
   ],
-  "author": "youthcity",
+  "author": "yanlee26",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
+    "conventional-changelog": "^3.1.24",
     "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
+    "lodash": "^4.17.15",
     "mocha": "^5.2.0",
+    "standard-version": "^9.1.0",
     "typescript": "^3.0.3"
   }
 }
