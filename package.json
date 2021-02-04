@@ -1,6 +1,6 @@
 {
   "name": "@yanli26/ts-package",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "create npm package with typescript",
   "private": false,
   "main": "dist/index.js",
