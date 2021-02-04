@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/yanlee26/ts-package/compare/prefix_v1.1.0...prefix_v1.2.0) (2021-02-04)
+
+
+### Features
+
+* add release sh ([a0f3602](https://github.com/yanlee26/ts-package/commit/a0f36027c20d076d186127c3343ccbdd4b7507ec))
+
 ## 1.1.0 (2021-02-04)
 
 
