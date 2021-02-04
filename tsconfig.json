@@ -6,8 +6,10 @@
     "declaration": true,
     "outDir": "./dist",
     "esModuleInterop": true,
-    "strict": true
+    "allowJs":true,
+    "strict": true,
   },
+  "include": ["lib"],
   "exclude": [
     "node_modules",
     "dist"
